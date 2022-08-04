@@ -66,7 +66,7 @@ legend("topright", inset=c(-0.2, 0.2),
 
 lung_CNA <- read.delim("Project_Data/lusc_CNV_core.txt", header = TRUE, sep = "\t", dec = ".")
 Significant_lung <- read_csv("Project_Data/sig_genes_lung.csv") # Significant Genes 
-lung_gene_exp <- read.csv("C:/Users/DR.LAP/Desktop/stat. analysis & visualization/Project_part_2/project/Project_Data/Lung_Cancer.txt", sep="")
+lung_gene_exp <- read.csv("Project_Data/Lung_Cancer.txt", sep="")
 
 
 # prepare lung Data
